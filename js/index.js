@@ -27,7 +27,6 @@ else if(580 <=windowW && windowW<979){
 else if(windowW<579){
     tNav()
     gallery()
-    formData()
 }
 
 // 공통
