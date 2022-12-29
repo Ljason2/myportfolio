@@ -1,3 +1,5 @@
+
+
 import $ from 'jquery'
  
 $(function(){
@@ -5,26 +7,26 @@ $(function(){
 let windowW=$(window).width()
 // 웹
 
-console.log(windowW)
 
 if(1545<=windowW){
     nav()
     submenu()
 }
 // 웹에서 태블릿으로 가는 과정
-else if(980 <= windowW && windowW < 1545){
+else if(980 <= windowW && windowW <1544){
     nav()
     submenu()
 }
 
 // 태블릿
-else if(580 <=windowW && windowW<979){
+// box04 문제 때문에 979가 아니라 973으로 수정함
+else if(580 <=windowW && windowW<973){
     tNav()
     gallery()
 }
 
 // 모바일
-else if(windowW<579){
+else if(windowW<=579){
     tNav()
     gallery()
 }
@@ -183,12 +185,12 @@ fig.innerHTML=this.fig;
 
 // 인스턴스
 let myModal=[
-new Modal('title01','./images/pic01.png','2022','프로그램1','http://aaa1.com','내용1','작업물1'),
-new Modal('title02','./images/pic02.png','2021','프로그램2','http://aaa2.com','내용2','작업물2'),
-new Modal('title03','./images/pic03.png','2023','프로그램3','http://aaa3.com','내용3','작업물3'),
-new Modal('title04','./images/pic04.png','2024','프로그램4','http://aaa4.com','내용4','작업물4'),
-new Modal('title05','./images/pic01.png','2025','프로그램5','http://aaa5.com','내용5','작업물5'),
-new Modal('title06','./images/pic02.png','2026','프로그램6','http://aaa6.com','내용6','작업물6')
+new Modal('title01','./images/design.png','2022','프로그램1','http://aaa1.com','내용1','작업물1'),
+new Modal('title02','./images/design2.png','2021','프로그램2','http://aaa2.com','내용2','작업물2'),
+new Modal('title03','./images/design3.png','2023','프로그램3','http://aaa3.com','내용3','작업물3'),
+new Modal('title04','./images/design4.png','2024','프로그램4','http://aaa4.com','내용4','작업물4'),
+new Modal('title05','./images/design5.jpg','2025','프로그램5','http://aaa5.com','내용5','작업물5'),
+new Modal('title06','./images/design6.png','2026','프로그램6','http://aaa6.com','내용6','작업물6')
 ]
 
 

@@ -111,7 +111,7 @@ article>div{
 
     #box01>h3{
     border: none;
-    margin-left: -346px;
+    margin-left: -314px;
     }
     #box01>h3>span{
         font-size: 56px;
@@ -206,21 +206,26 @@ article>div{
     
     #box04 #show{
         overflow: hidden;
-        width: 75vw;
+        width: /* 75vw; */ 77vw;
         margin: 0 auto;
     }
     
     #box04 #all{
-        width: 150vw;
+        width:/*  150vw; */ 152vw;
     }
     
     
     #box04 #all>figure{
-        width: /* 412px; */ 25vw;
+        width: /* 412px; */ /* 25vw; */ 25vw;
         /* height: 390px;  */
     }
     
     
+    #box04 #all>figure>img{
+        height: 33vh;
+    }
+
+
    
 
     #box04>div#gallery>p.prev{
@@ -418,7 +423,7 @@ header>div>nav>p.close{
 
     #box01>h3{
         border: none;
-        margin-left:-205px;
+        margin-left:-196px;
     }
 
     #box01>h3>span{
@@ -541,29 +546,33 @@ header>div>nav>p.close{
    
    #box04 #show{
        overflow: hidden;
-       width: 85vw;
+       width: /* 85vw; */ 83vw;
        margin: 0 auto;
    }
    
    #box04 #all{
-       width: 255vw;
+       width: /* 255vw; */ 242vw;
    }
    
    
    #box04 #all>figure{
-       width: /* 412px; */42.5vw;
+       width: /* 412px; *//* 42.5vw; */ 40vw;
        /* height: 390px;  */
        margin-bottom: 0px;
    }
    
-   
+   #box04 #all>figure>img{
+    height: 33vh;
+   }
+
+
    
 
    #box04>div#gallery>p.prev{
        display: block;
        width: 23px;
        height: 23px;
-       top: 21.25vw;
+       top: /* 21.25vw; */ 26vw;
        left: 0;
    }
    
@@ -571,7 +580,7 @@ header>div>nav>p.close{
        display: block;
        width: 23px;
        height: 23px;
-       top: 21.25vw;
+       top: /* 21.25vw; */ 26vw;
        right: 0;
    }
        

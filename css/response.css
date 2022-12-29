@@ -175,12 +175,12 @@ box-sizing: border-box;
     position: absolute;
     top: 33.8809034%;
     left: 50%;
-    margin-left:-383px;
+    margin-left:-365.615px;
     border: 3px solid white;
     padding: 30px 30px;
     box-sizing: border-box;
     z-index: 1000;
-    font-family: 'Syne Mono', monospace;
+    font-family: 'Glegoo', serif;
 
 }
 
@@ -450,6 +450,7 @@ border-left:1px solid white;
     width: /* 412px; */26.6666666%;
     /* height: 390px;  */
     text-align: center;
+    margin-top: 23px;
     margin-bottom: 52px;
 }
 
@@ -457,7 +458,17 @@ border-left:1px solid white;
     /* height: 347px; */
     margin-bottom: 29px;
     width: 90%;
+    height: 50vh;
 }
+
+#box04 #all>figure>img:hover{
+    filter: none;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform .5s;
+    box-shadow: 0 2px 30px rgba(255, 255, 255, 0.5);
+}
+
 
 #box04 #all>figure>figcaption{
     font-weight: bold;
@@ -472,7 +483,7 @@ border-left:1px solid white;
     height: 32px;
     background-color: black;
     position: absolute;
-    top: 12.5vw;
+    top: 15vw;
     margin-top: -16px;
     left: 19px;
 
@@ -484,7 +495,7 @@ border-left:1px solid white;
     height: 32px;
     background-color: black;
     position: absolute;
-    top: 12.5vw;
+    top: 15vw;
     margin-top: -16px;
     right: 19px;
 }
@@ -540,6 +551,12 @@ border-left:1px solid white;
     width: 40%;
     text-align: center
 }
+
+
+#modal>section>div>figure>img{
+    height: 42vh;
+}
+
 
 #modal>section>div>dl{
     width: 55%;
@@ -764,4 +781,23 @@ footer{
 
 footer>small{
 font-weight: bold;
+}
+
+
+
+footer>small>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width:  128px;
+    margin: 10px auto 0;
+
+}
+
+footer>small>a>img{
+    border-radius: 50%;
+    margin-right: 10px;
 }
