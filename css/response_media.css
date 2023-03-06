@@ -1,0 +1,831 @@
+@media screen and (min-width:1545px){
+    
+
+header>div{
+    width:1545px;
+}
+
+
+article>div{
+    width: 1545px;
+}
+
+}
+
+
+
+/*태블릿으로 가는 과정 */
+
+@media screen and (min-width:980px) and (
+    max-width:1544px
+){
+
+    #box03>div>div>dl>dd{
+        padding-right: 60px;
+    }
+
+
+    #box05>div>div>div{
+        padding-right: 60px;
+    }
+}
+
+
+
+/* 태블릿 */
+
+@media screen and (min-width:580px) and (
+    max-width:979px
+) {
+   
+
+/* header */
+
+    header{
+     padding: 28px 0;
+    }
+    header>div{
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+    
+
+    header>div>h1{
+        text-align: center;
+    }
+
+
+    header>div>h1>a{
+        font-size: 35px;
+    }
+
+
+    /* nav */
+
+    header>div>nav{
+        position: fixed;
+        left:-40.3061224%; /* 0; */
+        top: 0;
+        width: 40.3061224%;
+        height: 100%;
+        background-color:rgba(0, 0,0, 0.6);
+        padding-top: 25vh;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+    header>div>nav>ul{
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    header>div>nav>ul>li{
+        padding-left: 0;
+        margin-left: 0;
+        display: block;
+        border-bottom: 1px solid #fff;
+        text-align: center;
+    }
+
+    header>div>nav>ul>li>a{
+        line-height: 6.25vh;
+        font-size: 20px;
+    }
+
+    header>div>nav>p.close{
+        display: block;
+    }
+
+    header>p.btn{
+        display: block;
+    }
+
+
+    /* box01 */
+
+    #box01>h3{
+    border: none;
+    margin-left: -314px;
+    }
+    #box01>h3>span{
+        font-size: 56px;
+    }
+
+
+
+
+    /* box02 */
+
+    #box02{
+        padding-top: 67px;
+        padding-bottom: 83px;
+    }
+
+    #box02>div>h3{
+        margin-bottom: 53px;
+    }
+    
+
+    #box02>div>div{
+        width: /* 1103px; *//* 60.63771302%; */ 90vw;
+    }
+    
+    #box02>div h4{
+        margin:0 auto 50px;
+        float: none;
+    }
+    
+    #box02>div>div>div{
+        width: /* 657px; */ 100%;
+        float: none;
+        margin: 0 auto;
+    }
+    
+
+    #box02>div dl{
+        margin-bottom: 34.5px;
+    }
+    
+    #box02>div dl>dt{
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    
+    
+    /* box03 */
+
+    #box03{
+        padding-top: 84px;
+        padding-bottom: 76px;
+    }
+    
+    #box03>div>div{
+        display: block;
+    }
+    
+    
+    #box03>div>div>dl{
+        text-align: center;
+        margin-bottom: 66px;
+    }
+    
+    
+    
+    #box03>div>div>div{
+        width: 75vw/* 571px */;
+        margin: 0 auto;
+    }
+    
+    #box03>div>div>div>figure{
+        width: /* 81px; */ 10vw;
+        height:10vw;
+        float:left;
+        /* margin-right: 2.5vw; */
+        margin: 0 1.25vw 2.5vw;
+        box-sizing:border-box;
+    }
+
+    #box03>div>div>div>figure>img{
+        width:48px;
+    }
+    
+
+    /* box04 */
+
+    
+    
+    
+    
+    
+    #box04 #show{
+        overflow: hidden;
+        width: /* 75vw; */ 77vw;
+        margin: 0 auto;
+    }
+    
+    #box04 #all{
+        width:/*  150vw; */ 152vw;
+    }
+    
+    
+    #box04 #all>figure{
+        width: /* 412px; */ /* 25vw; */ 25vw;
+        /* height: 390px;  */
+    }
+    
+    
+    #box04 #all>figure>img{
+    }
+
+
+   
+
+    #box04>div#gallery>p.prev{
+        display: block;
+    }
+    
+    #box04>div#gallery>p.next{
+        display: block;
+    }
+        
+
+    #modal>section>div>figure>img{
+        width: 45%;
+    }
+    
+
+
+        /* box05 */
+
+        
+        #box05>div{
+            padding-left: /* 228px; */0;
+            padding-right: /* 278px; */0;
+        }
+        
+        #box05>div>div{
+            text-align: center;
+            display: block;
+        }
+        
+        
+        #box05 dl:nth-of-type(2){
+            display: none;
+        }
+        
+        
+        #box05 dl:nth-of-type(1)>dt{
+            font-size: 22px;
+        }
+
+
+
+        #box05 dl:nth-of-type(1)>dd{
+            font-size: 15px;
+        }
+        
+        
+        #box05 dl:nth-of-type(2)>dt{
+        font-size: 14px; 
+        }
+        
+        
+        #box05 dl:nth-of-type(2)>dd{
+        font-size: 14px;
+        }
+        
+        
+        
+        #box05>div>div>form{
+            margin: 0 auto;
+            width: /* 446px;  */75vw;
+        }
+        
+        
+    
+        #box05>div>div>form ul>li>label{
+            display: block;
+            text-align: left;
+        }
+        
+        
+        #box05>div>div>form ul>li>input{
+            width: /* 401px; */100%;
+        }
+        
+        #box05>div>div>form ul>li>textarea{
+            width: /* 401px; */ 100%;
+        }
+        
+        #box05>div>div>form p>input{
+            width: /* 401px; */ 100%;
+        }
+        
+
+
+
+
+        /* submenu */
+        aside>ul{
+            display: none;
+        }
+
+
+        /* top */
+
+        aside>p{
+            display: none;
+        }
+    
+    /*  */
+}
+
+/* 태블릿에서 모바일 갈 때 h3중간에 안오는 부분 */
+
+
+
+@media screen and (min-width:580px) and (max-width:693px)
+{
+#box01>h3{
+margin-left: -311.5px;
+}
+}
+
+
+
+
+/* 모바일 */
+
+
+
+@media screen and (max-width:579px) {
+    
+/* header */
+
+header{
+    padding-top: 17px;
+    padding-bottom: 13px;
+   }
+
+
+   header>div{
+       padding: 0;
+       width: 100%;
+       display: block;
+   }
+   
+
+   header>div>h1{
+       text-align: center;
+   }
+
+
+   header>div>h1>a{
+       font-size: 35px;
+   }
+
+
+   /* nav */
+
+   header>div>nav{
+    position: fixed;
+    left: -100%;    /* 0; */
+    top: 0;
+    width: 100%;
+    height: 90.2491874%;
+    background-color:rgba(0, 0, 0,0.6);
+    padding-top: 27vh;
+    box-sizing: border-box;
+    z-index: 2000;
+}
+
+
+
+
+
+header>div>nav>ul{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+header>div>nav>ul>li{
+    padding-left: 0;
+    margin-left: 0;
+    display: block;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+header>div>nav>ul>li>a{
+    line-height: 8vh;
+    font-size: 20px;
+}
+
+header>div>nav>p.close{
+    display: block;
+}
+
+
+   header>p.btn{
+       display: block;
+       width: 23px;
+       height: 23px;
+       top: 20px;
+        right: 18px;
+   }
+
+
+    /* box01 */
+
+    #box01>h3{
+        border: none;
+        margin-left:-196px;
+    }
+
+    #box01>h3>span{
+        font-size: 31px;
+        /* margin-bottom: 32px; */
+    }
+    
+
+
+   /* box02 */
+
+    #box02{
+        padding-top: 48px;
+        padding-bottom: 37px;
+    }
+
+    #box02>div>h3{
+        margin-bottom: 32px;
+    }
+
+
+   #box02>div>div{
+       width: /* 1103px; */ 90vw;
+   }
+   
+   #box02>div h4{
+       margin:0 auto 37px;
+       float: none;
+   }
+   
+   #box02>div>div>div{
+       width: /* 657px; */100%;
+       float: none;
+       margin: 0 auto;
+   }
+   
+
+   #box02>div dl{
+       margin-bottom: 42px;
+   }
+   
+   #box02>div dl>dt{
+       font-size: 24px;
+       margin-bottom: 37px;
+       text-align: center;
+   }
+   
+   
+   #box02>div p{
+   justify-content:center;
+   }
+   
+   #box02>div p>a{
+       width: /* 198px; */ 35vw;
+   }
+   
+   
+
+   /* box03 */
+
+   #box03{
+       padding-top: 84px;
+       padding-bottom: 76px;
+   }
+   
+   #box03>div>div{
+       display: block;
+   }
+   
+   
+   #box03>div>div>dl{
+       text-align: center;
+       margin-bottom: 66px;
+   }
+   
+   
+   
+   #box03>div>div>div{
+    width: 83.33333333vw;/* 571px; */
+    margin: 0 auto;
+}
+
+#box03>div>div>div>figure{
+    width: /* 81px; */ 16.6666665vw;
+    height:16.6666665vw;
+    float:left;
+    /* margin-right: 2.5vw; */
+    margin: 0 1.25vw 2.5vw;
+    box-sizing:border-box;
+}
+
+#box03>div>div>div>figure>img{
+    width:48px;
+}
+
+
+   /* box04 */
+
+   #box04{
+       padding-top: 40px;
+       padding-bottom: 40px;
+   }
+   
+   #box04>h3{
+   font-size: 27px;
+   margin-bottom: 37px;
+   }
+   
+   #box04>p:nth-child(2){
+       margin-bottom: 69px;
+   }
+   
+   #box04>p:nth-child(3){
+       width: 90vw;
+       margin: 0 auto 37px;
+   }
+   
+   
+   
+   
+   #box04 #show{
+       overflow: hidden;
+       width: /* 85vw; */ 83vw;
+       margin: 0 auto;
+   }
+   
+   #box04 #all{
+       width: /* 255vw; */ 242vw;
+   }
+   
+   
+   #box04 #all>figure{
+       width: /* 412px; *//* 42.5vw; */ 40vw;
+       /* height: 390px;  */
+       margin-bottom: 0px;
+   }
+   
+   #box04 #all>figure>img{
+    height:45vw;
+   }
+
+
+   
+
+   #box04>div#gallery>p.prev{
+       display: block;
+       width: 23px;
+       height: 23px;
+       top: /* 21.25vw; */ 26vw;
+       left: 0;
+   }
+   
+   #box04>div#gallery>p.next{
+       display: block;
+       width: 23px;
+       height: 23px;
+       top: /* 21.25vw; */ 26vw;
+       right: 0;
+   }
+       
+   #modal>section>div>figure>img{
+    width: 65%;
+    height: 42vh;
+}
+
+
+       /* box05 */
+
+       #box05{
+           background-color: #9c9491;
+           padding-top: 45px;
+           padding-bottom: 41px;
+       }
+       
+       #box05 h3{
+       font-size: 28px;
+       margin-bottom: 31px;
+       }
+       
+       #box05>div{
+           padding-left: /* 228px; */0;
+           padding-right: /* 278px; */0;
+       }
+       
+       #box05>div>div{
+           text-align: center;
+           display: block;
+       }
+       
+       
+       
+       #box05 dl:nth-of-type(2){
+           display: none;
+       }
+       
+       
+       #box05 dl:nth-of-type(1)>dt{
+           font-size: 23px;
+           margin-bottom: 45.5px;
+       }
+
+
+       #box05 dl:nth-of-type(1)>dd{
+           font-size: 15px;
+       }
+       
+       
+       #box05 dl:nth-of-type(2)>dt{
+       font-size: 14px; 
+       }
+       
+       
+       
+       #box05 dl:nth-of-type(2)>dd{
+       font-size: 14px;
+       }
+       
+       
+       
+       #box05>div>div>form{
+           margin: 0 auto;
+           width: /* 446px;  */90vw;
+       }
+       
+       
+       
+       
+       #box05>div>div>form ul>li>label{
+           display: block;
+           text-align: left;
+       }
+       
+       
+       #box05>div>div>form ul>li>input{
+           width: /* 401px; */100%;
+       }
+       
+       #box05>div>div>form ul>li>textarea{
+           width: /* 401px; */ 100%;
+       }
+       
+       #box05>div>div>form p>input{
+           width: /* 401px; */ 100%;
+       }
+       
+
+
+
+
+       /* submenu */
+       aside>ul{
+           display: none;
+       }
+
+
+       /* top */
+
+       aside>p{
+           display: none;
+       }
+
+
+       /* footer */
+
+       footer{
+        padding-top:18px ;
+        padding-bottom: 22px;
+       }
+
+
+    /*  */
+}
+
+
+
+/* 모바일에서 줄어들 때 h3 중간에 안오는 부분 */
+
+
+@media screen and (max-width:360px) {
+
+    #box01>h3{
+        margin-left: -160.25px;
+    }
+}
+
+
+
+
+
+
+/* 모바일 374px 미만 공백생성방지 */
+
+
+@media screen and (max-width:374px) {
+
+    #box04>ul{
+        border-top: 2px solid black;
+        display: block;
+    }
+ 
+    #box04>ul>li{
+        padding: 10px 0;
+        border-bottom: 2px solid black;
+        margin: 0 auto;
+    }
+    
+
+    
+    #box04>ul>li>a{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #box04>ul>li:first-child{
+        border-left: 1px;
+}
+    
+
+
+}
+
+/* modal */
+
+@media screen and (max-width:980px){
+
+
+    #modal{
+        display: none;  /*  block; */
+        padding: 6.66vh 5vw 3.33vh;
+    }
+    
+    
+    
+    #modal>.close{
+        width: 5vw; height: 5vw;
+        right: 2.5vw; top: 1.665vh;
+    }
+    
+    #modal>section{
+        position: static;
+        width: auto;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+    
+    #modal>section>h4{
+        font-size:6.66vh;
+        line-height: 1;
+        margin-bottom: 3.33vh;
+    }
+    
+    #modal>section>div{
+        display: block;
+    }
+    
+    #modal>section>div>figure{
+        height: 43.29vh; 
+        width: auto;
+        overflow: hidden;
+        margin-bottom: 3.333vh;
+    }
+    
+    #modal>section>div>figure>figcaption{
+        display: none;
+    }
+    
+    
+    #modal>section>div>dl{
+        position: absolute;
+    width: 80vw;
+    bottom: 6.66vh;
+    left: 10vw;
+    }
+    
+    
+    #modal>section>div>dl>dt{
+        clear: none;
+        float: none;
+        width: auto;
+        font-size: 1.5vh;
+        margin-bottom: 1.83vh;
+        font-weight: bold;
+    }
+    
+    #modal>section>div>dl>dd{
+        float: none;
+        width: auto;
+        font-size: 1.665vh;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        /* padding-bottom: 1.665vh;
+        margin-bottom: 1.665vh; */
+    }
+    
+    
+    
+    
+    }
